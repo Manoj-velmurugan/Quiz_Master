@@ -166,6 +166,8 @@ function checkScore(){
 }
 ```
 ## Output:
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e487a054-668f-45bf-a4c0-ea2c7eafa6d7" />
+
 
 ## Result:
 A mini module using JavaScript callbacks and higher-order functions is successfully created. This reinforces real-world use of passing functions as arguments to other functions and modularizes logic for reusability.
