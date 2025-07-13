@@ -32,7 +32,7 @@ function calculateScore(callback){
     document.getElementById("result").textContent = `Your Score : ${score}/${questions.length}`
 }
 
-function StrictScoring(userAnswers, questions){
+function strictScoring(userAnswers, questions){
     let score = 0;
 
     userAnswers.forEach((ans, index) => {
@@ -44,5 +44,5 @@ function StrictScoring(userAnswers, questions){
 }
 
 function checkScore(){
-    calculateScore(StrictScoring);
+    calculateScore(strictScoring);
 }
